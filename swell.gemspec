@@ -9,13 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Joseph McCormick"]
   spec.email         = ["esmevane@gmail.com"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
-
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A swell way to add data to ElasticSearch.}
+  spec.description   = %q{Use POROs to define ElasticSearch indexes}
+  spec.homepage      = "http://github.com/esmevane/swell"
   spec.license       = "MIT"
   spec.bindir        = "exe"
   spec.require_paths = ["lib"]
